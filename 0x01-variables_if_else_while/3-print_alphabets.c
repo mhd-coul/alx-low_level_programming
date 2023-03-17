@@ -7,22 +7,14 @@
  */
 int main(void)
 {
-	char letter = 'a';
-	int i;
-	int j;
+	char letter;
 
-	for (i = 0; i < 26; i++)
-	{
-		for (j = 0; j < 26; j++)
-		{
-			putchar(letter);
-			letter++;
-		}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+	for (letter = 'A'; letter <= 'Z'; letter++)
+		putchar(letter);
 
-
-		putchar(letter + 32);
-		letter++;
-	}
+	printf("\n");
 	return (0);
 }
 
