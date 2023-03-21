@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -16,5 +17,25 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+=======
+#include <stdio.h>
+
+/**
+ * main -Task0 printing usinf putchar
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+>>>>>>> 04144bcef84510a126d3af8e3858b5c96013f276
 	return (0);
 }
