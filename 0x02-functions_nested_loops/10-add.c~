@@ -1,0 +1,12 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ *add - write a function that adds two int
+ *
+ *Return: always 0 (Sucess)
+ */
+int add(int a, int b)
+{
+	return (a + b);
+}
