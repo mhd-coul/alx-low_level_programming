@@ -4,7 +4,15 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _memset - memset
+ * @s: char s
+ * @b : char b
+ * @n: unsigned int
+ * Return: memset
+ */
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	return memset(s, b, n);
+	return (memset(s, b, n));
 }

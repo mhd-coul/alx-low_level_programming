@@ -4,8 +4,13 @@
 #include <ctype.h>
 #include <string.h>
 
+/**
+ * _isalpha - isalpha
+ * @c: int c
+ * Return: 0
+ */
+
 int _isalpha(int c)
 {
-	return isalpha(c);
+	return (isalpha(c));
 }
-
